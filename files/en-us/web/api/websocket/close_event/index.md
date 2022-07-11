@@ -41,7 +41,7 @@ _In addition to the properties listed below, properties from the parent interfac
 - {{domxref("CloseEvent.reason", "reason")}}{{readOnlyInline}}
   - : Returns a string indicating the reason the server closed the connection. This is specific to the particular server and sub-protocol.
 - {{domxref("CloseEvent.wasClean", "wasClean")}}{{readOnlyInline}}
-  - : Returns a boolean value that Indicates whether or not the connection was cleanly closed.
+  - : Returns a boolean value that Indicates whether or not the connection was closed via the close handshake.
 
 ## Examples
 
